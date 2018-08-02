@@ -1,12 +1,11 @@
 # Cài đặt 
 react-native install react-native-voice
-
+react-native install react-native-sound
+react-native install react-native-audio
 # Nâng cấp phiên bản của SDK build tool để sử dụng react-native-voice
 - Mở file build.gradle : 
     dependencies {
             classpath 'com.android.tools.build:gradle:3.1.0' // sửa 
-
-           
         }
     subprojects {
         project.configurations.all {
