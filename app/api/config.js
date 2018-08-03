@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import {AudioRecorder, AudioUtils} from 'react-native-audio';
 
-
-
 export default class Convert extends Component {
     constructor(props) {
         super(props)
