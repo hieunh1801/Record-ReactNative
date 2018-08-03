@@ -8,6 +8,9 @@ import { StyleSheet,
    } from 'react-native';
 import Sound from 'react-native-sound';
 import {AudioRecorder, AudioUtils} from 'react-native-audio';
+ import Convert from '../api/config';
+
+
 
 export default class AudioTest extends Component {
   constructor(props){
@@ -208,6 +211,8 @@ export default class AudioTest extends Component {
             {/* {this._renderButton("PAUSE", () => {this._pause()} )} */}
             {this._renderPauseButton(() => {this.state.paused ? this._resume() : this._pause()})}
             <Text style={styles.progressText}>{this.state.currentTime}s</Text>
+          <Convert/>
+            
           </View>
         </View>
         );

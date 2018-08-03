@@ -1,3 +1,8 @@
+
+/* 
+  Không sử dụng được
+
+*/
 import React, { Component } from 'react';
 import {
   StyleSheet,
