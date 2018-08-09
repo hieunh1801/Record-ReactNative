@@ -5,6 +5,7 @@ react-native install react-native-audio
 react-native install @google-cloud/speech
 # Nâng cấp phiên bản của SDK build tool để sử dụng react-native-voice
 - Mở file build.gradle : 
+```
     dependencies {
             classpath 'com.android.tools.build:gradle:3.1.0' // sửa 
         }
@@ -19,5 +20,6 @@ react-native install @google-cloud/speech
             }
         }
     }
+ ```
 - Mở file gradle-wrapper.properties 
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.4-all.zip
