@@ -1,8 +1,8 @@
 # Cài đặt 
-react-native install react-native-voice
-react-native install react-native-sound
-react-native install react-native-audio
-react-native install @google-cloud/speech
+    react-native install react-native-voice
+    react-native install react-native-sound
+    react-native install react-native-audio
+    react-native install @google-cloud/speech
 # Nâng cấp phiên bản của SDK build tool để sử dụng react-native-voice
 - Mở file build.gradle : 
 ```
