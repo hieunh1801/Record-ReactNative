@@ -21,5 +21,7 @@ react-native install @google-cloud/speech
         }
     }
  ```
-- Mở file gradle-wrapper.properties 
+- Mở file gradle-wrapper.properties cập nhật lại  phiên bản
+```
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.4-all.zip
+```
